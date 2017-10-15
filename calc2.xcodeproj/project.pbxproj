@@ -14,6 +14,9 @@
 		9C87CE671F91D20100F47051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C87CE651F91D20100F47051 /* LaunchScreen.storyboard */; };
 		9C87CE721F91D20100F47051 /* calc2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87CE711F91D20100F47051 /* calc2Tests.swift */; };
 		9C87CE7D1F91D20100F47051 /* calc2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87CE7C1F91D20100F47051 /* calc2UITests.swift */; };
+		9C87CE8B1F9294C500F47051 /* CalcDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87CE8A1F9294C500F47051 /* CalcDisplayView.swift */; };
+		9C87CE8D1F92A83400F47051 /* LCDMN___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9C87CE8C1F92A75400F47051 /* LCDMN___.TTF */; };
+		9C87CE8F1F92AB3000F47051 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87CE8E1F92AB3000F47051 /* CalculatorEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9C87CE781F91D20100F47051 /* calc2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calc2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C87CE7C1F91D20100F47051 /* calc2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calc2UITests.swift; sourceTree = "<group>"; };
 		9C87CE7E1F91D20100F47051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C87CE8A1F9294C500F47051 /* CalcDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcDisplayView.swift; sourceTree = "<group>"; };
+		9C87CE8C1F92A75400F47051 /* LCDMN___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LCDMN___.TTF"; sourceTree = "<group>"; };
+		9C87CE8E1F92AB3000F47051 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		9C87CE501F91D20100F47051 = {
 			isa = PBXGroup;
 			children = (
+				9C87CE8C1F92A75400F47051 /* LCDMN___.TTF */,
 				9C87CE5B1F91D20100F47051 /* calc2 */,
 				9C87CE701F91D20100F47051 /* calc2Tests */,
 				9C87CE7B1F91D20100F47051 /* calc2UITests */,
@@ -103,6 +110,8 @@
 				9C87CE631F91D20100F47051 /* Assets.xcassets */,
 				9C87CE651F91D20100F47051 /* LaunchScreen.storyboard */,
 				9C87CE681F91D20100F47051 /* Info.plist */,
+				9C87CE8A1F9294C500F47051 /* CalcDisplayView.swift */,
+				9C87CE8E1F92AB3000F47051 /* CalculatorEngine.swift */,
 			);
 			path = calc2;
 			sourceTree = "<group>";
@@ -187,6 +196,9 @@
 		9C87CE511F91D20100F47051 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Robert Diamond";
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C87CE8D1F92A83400F47051 /* LCDMN___.TTF in Resources */,
 				9C87CE671F91D20100F47051 /* LaunchScreen.storyboard in Resources */,
 				9C87CE641F91D20100F47051 /* Assets.xcassets in Resources */,
 				9C87CE621F91D20100F47051 /* Main.storyboard in Resources */,
@@ -260,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C87CE5F1F91D20100F47051 /* ViewController.swift in Sources */,
+				9C87CE8F1F92AB3000F47051 /* CalculatorEngine.swift in Sources */,
 				9C87CE5D1F91D20100F47051 /* AppDelegate.swift in Sources */,
+				9C87CE8B1F9294C500F47051 /* CalcDisplayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
